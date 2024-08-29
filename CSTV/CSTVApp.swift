@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct CSTVApp: App {
+    @State var initialized = false
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            if initialized {
+                MatchesList(viewModel: .init())
+                
+            } else {
+                SplashView()
+                    .onAppear {
+                        initialized = true
+                    }
+            }
         }
     }
 }
