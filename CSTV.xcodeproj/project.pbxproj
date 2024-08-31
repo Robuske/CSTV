@@ -60,6 +60,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA9BCE6F2C83D0EE00F2A434 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA9BCE702C83D14A00F2A434 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EA8DB9B42C8016C400D80D94 /* MatchesList.swift */,
+				EA8DB9B82C80197A00D80D94 /* MatchesListViewModel.swift */,
+				EA8DB9B62C8018BE00D80D94 /* MatchRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		EA9C38052C7FBCB1004B3CE1 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,14 +107,12 @@
 		EAF2EFA32C7EC760001B60B3 /* CSTV */ = {
 			isa = PBXGroup;
 			children = (
-				EA9C38052C7FBCB1004B3CE1 /* Foundation */,
-				EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */,
-				EA8DB9B42C8016C400D80D94 /* MatchesList.swift */,
-				EA8DB9B82C80197A00D80D94 /* MatchesListViewModel.swift */,
-				EA8DB9B62C8018BE00D80D94 /* MatchRow.swift */,
-				EA9C38032C7FBA22004B3CE1 /* SplashView.swift */,
-				EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */,
 				EAF2EFAA2C7EC762001B60B3 /* Preview Content */,
+				EA9BCE6F2C83D0EE00F2A434 /* Resources */,
+				EA9C38052C7FBCB1004B3CE1 /* Foundation */,
+				EA9C38032C7FBA22004B3CE1 /* SplashView.swift */,
+				EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */,
+				EA9BCE702C83D14A00F2A434 /* List */,
 			);
 			path = CSTV;
 			sourceTree = "<group>";
