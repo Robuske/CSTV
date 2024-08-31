@@ -18,7 +18,7 @@ struct MatchesList: View {
             .background(.background)
             .listStyle(.plain)
             .scrollContentBackground(.hidden)
-            .navigationTitle("Teste")
+            .navigationTitle("matches_list_title")
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarBackground(Color(MainColors.background.name), for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)

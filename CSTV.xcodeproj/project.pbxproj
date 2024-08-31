@@ -11,6 +11,7 @@
 		EA8DB9B52C8016C400D80D94 /* MatchesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8DB9B42C8016C400D80D94 /* MatchesList.swift */; };
 		EA8DB9B72C8018BE00D80D94 /* MatchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8DB9B62C8018BE00D80D94 /* MatchRow.swift */; };
 		EA8DB9B92C80197A00D80D94 /* MatchesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8DB9B82C80197A00D80D94 /* MatchesListViewModel.swift */; };
+		EA9BCE752C83D97600F2A434 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9BCE772C83D97600F2A434 /* Localizable.strings */; };
 		EA9C38042C7FBA22004B3CE1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C38032C7FBA22004B3CE1 /* SplashView.swift */; };
 		EA9C38072C7FBCD6004B3CE1 /* MainAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C38062C7FBCD6004B3CE1 /* MainAssets.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
@@ -33,6 +34,8 @@
 		EA8DB9B42C8016C400D80D94 /* MatchesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesList.swift; sourceTree = "<group>"; };
 		EA8DB9B62C8018BE00D80D94 /* MatchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRow.swift; sourceTree = "<group>"; };
 		EA8DB9B82C80197A00D80D94 /* MatchesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListViewModel.swift; sourceTree = "<group>"; };
+		EA9BCE762C83D97600F2A434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EA9BCE782C83D97900F2A434 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		EA9C38032C7FBA22004B3CE1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		EA9C38062C7FBCD6004B3CE1 /* MainAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssets.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */,
+				EA9BCE772C83D97600F2A434 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,7 +200,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"pt-BR",
 			);
 			mainGroup = EAF2EF982C7EC760001B60B3;
 			productRefGroup = EAF2EFA22C7EC760001B60B3 /* Products */;
@@ -215,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */,
+				EA9BCE752C83D97600F2A434 /* Localizable.strings in Resources */,
 				EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +264,18 @@
 			targetProxy = EAF2EFB22C7EC763001B60B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9BCE772C83D97600F2A434 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BCE762C83D97600F2A434 /* en */,
+				EA9BCE782C83D97900F2A434 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EAF2EFC32C7EC763001B60B3 /* Debug */ = {

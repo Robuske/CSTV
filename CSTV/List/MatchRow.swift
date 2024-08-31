@@ -39,7 +39,7 @@ struct MatchRow: View {
                         Text(model.leftTeamName)
                             .foregroundColor(.textPrimary)
                     }
-                    Text("vs")
+                    Text("generic_vs")
                         .foregroundColor(.textSecondary)
                     VStack {
                         AsyncImage(url: model.rightTeamLogo) { image in
@@ -96,7 +96,7 @@ extension MatchRow {
             .init(
                 id: "liveMock",
                 isLive: true,
-                timeText: "LIVE TEXT",
+                timeText: "match_time_now",
                 leftTeamLogo: nil,
                 leftTeamName: "Left Team",
                 rightTeamLogo: nil,
