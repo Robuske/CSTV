@@ -36,6 +36,7 @@
 		EA8DB9B82C80197A00D80D94 /* MatchesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListViewModel.swift; sourceTree = "<group>"; };
 		EA9BCE762C83D97600F2A434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EA9BCE782C83D97900F2A434 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EA9BCE792C83DBD900F2A434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EA9C38032C7FBA22004B3CE1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		EA9C38062C7FBCD6004B3CE1 /* MainAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssets.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +112,7 @@
 		EAF2EFA32C7EC760001B60B3 /* CSTV */ = {
 			isa = PBXGroup;
 			children = (
+				EA9BCE792C83DBD900F2A434 /* Info.plist */,
 				EAF2EFAA2C7EC762001B60B3 /* Preview Content */,
 				EA9BCE6F2C83D0EE00F2A434 /* Resources */,
 				EA9C38052C7FBCB1004B3CE1 /* Foundation */,
@@ -402,9 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CSTV;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = CSTV/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -435,9 +435,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CSTV;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = CSTV/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

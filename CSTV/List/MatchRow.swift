@@ -96,7 +96,7 @@ extension MatchRow {
             .init(
                 id: "liveMock",
                 isLive: true,
-                timeText: "match_time_now",
+                timeText: String(localized: "match_time_now"),
                 leftTeamLogo: nil,
                 leftTeamName: "Left Team",
                 rightTeamLogo: nil,
