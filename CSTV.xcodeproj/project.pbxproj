@@ -16,19 +16,10 @@
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
-		EAF2EFC02C7EC763001B60B3 /* CSTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFBF2C7EC763001B60B3 /* CSTVUITests.swift */; };
-		EAF2EFC22C7EC763001B60B3 /* CSTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFC12C7EC763001B60B3 /* CSTVUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EAF2EFB22C7EC763001B60B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EAF2EF992C7EC760001B60B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAF2EFA02C7EC760001B60B3;
-			remoteInfo = CSTV;
-		};
-		EAF2EFBC2C7EC763001B60B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EAF2EF992C7EC760001B60B3 /* Project object */;
 			proxyType = 1;
@@ -49,9 +40,6 @@
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAF2EFB12C7EC763001B60B3 /* CSTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF2EFBB2C7EC763001B60B3 /* CSTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAF2EFBF2C7EC763001B60B3 /* CSTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVUITests.swift; sourceTree = "<group>"; };
-		EAF2EFC12C7EC763001B60B3 /* CSTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EAF2EFAE2C7EC763001B60B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAF2EFB82C7EC763001B60B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +73,6 @@
 			children = (
 				EAF2EFA32C7EC760001B60B3 /* CSTV */,
 				EAF2EFB42C7EC763001B60B3 /* CSTVTests */,
-				EAF2EFBE2C7EC763001B60B3 /* CSTVUITests */,
 				EAF2EFA22C7EC760001B60B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,7 +82,6 @@
 			children = (
 				EAF2EFA12C7EC760001B60B3 /* CSTV.app */,
 				EAF2EFB12C7EC763001B60B3 /* CSTVTests.xctest */,
-				EAF2EFBB2C7EC763001B60B3 /* CSTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,15 +115,6 @@
 				EA8DB9B22C800F5800D80D94 /* MainAssetsTests.swift */,
 			);
 			path = CSTVTests;
-			sourceTree = "<group>";
-		};
-		EAF2EFBE2C7EC763001B60B3 /* CSTVUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EAF2EFBF2C7EC763001B60B3 /* CSTVUITests.swift */,
-				EAF2EFC12C7EC763001B60B3 /* CSTVUITestsLaunchTests.swift */,
-			);
-			path = CSTVUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,24 +155,6 @@
 			productReference = EAF2EFB12C7EC763001B60B3 /* CSTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EAF2EFBA2C7EC763001B60B3 /* CSTVUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EAF2EFCB2C7EC763001B60B3 /* Build configuration list for PBXNativeTarget "CSTVUITests" */;
-			buildPhases = (
-				EAF2EFB72C7EC763001B60B3 /* Sources */,
-				EAF2EFB82C7EC763001B60B3 /* Frameworks */,
-				EAF2EFB92C7EC763001B60B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EAF2EFBD2C7EC763001B60B3 /* PBXTargetDependency */,
-			);
-			name = CSTVUITests;
-			productName = CSTVUITests;
-			productReference = EAF2EFBB2C7EC763001B60B3 /* CSTVUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,10 +169,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					EAF2EFB02C7EC763001B60B3 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = EAF2EFA02C7EC760001B60B3;
-					};
-					EAF2EFBA2C7EC763001B60B3 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = EAF2EFA02C7EC760001B60B3;
 					};
@@ -241,7 +189,6 @@
 			targets = (
 				EAF2EFA02C7EC760001B60B3 /* CSTV */,
 				EAF2EFB02C7EC763001B60B3 /* CSTVTests */,
-				EAF2EFBA2C7EC763001B60B3 /* CSTVUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,13 +204,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EAF2EFAF2C7EC763001B60B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAF2EFB92C7EC763001B60B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,15 +234,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAF2EFB72C7EC763001B60B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAF2EFC22C7EC763001B60B3 /* CSTVUITestsLaunchTests.swift in Sources */,
-				EAF2EFC02C7EC763001B60B3 /* CSTVUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,11 +241,6 @@
 			isa = PBXTargetDependency;
 			target = EAF2EFA02C7EC760001B60B3 /* CSTV */;
 			targetProxy = EAF2EFB22C7EC763001B60B3 /* PBXContainerItemProxy */;
-		};
-		EAF2EFBD2C7EC763001B60B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EAF2EFA02C7EC760001B60B3 /* CSTV */;
-			targetProxy = EAF2EFBC2C7EC763001B60B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -369,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,12 +369,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CSTV;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,12 +402,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CSTV;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,13 +433,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Buske.CSTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CSTV";
 			};
 			name = Debug;
@@ -524,48 +454,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Buske.CSTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CSTV";
-			};
-			name = Release;
-		};
-		EAF2EFCC2C7EC763001B60B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Buske.CSTVUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CSTV;
-			};
-			name = Debug;
-		};
-		EAF2EFCD2C7EC763001B60B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Buske.CSTVUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CSTV;
 			};
 			name = Release;
 		};
@@ -595,15 +493,6 @@
 			buildConfigurations = (
 				EAF2EFC92C7EC763001B60B3 /* Debug */,
 				EAF2EFCA2C7EC763001B60B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EAF2EFCB2C7EC763001B60B3 /* Build configuration list for PBXNativeTarget "CSTVUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAF2EFCC2C7EC763001B60B3 /* Debug */,
-				EAF2EFCD2C7EC763001B60B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
