@@ -28,13 +28,9 @@ public enum MainColors: String, CaseIterable {
     public var color: Color {
         Color(name)
     }
-}
 
-public enum MainImages: String, CaseIterable {
-    case fuzeLogo
-
-    public var name: String {
-        rawValue
+    public var uiColor: UIColor? {
+        UIColor(named: name)
     }
 }
 
@@ -53,11 +49,5 @@ public extension Text {
 public extension Shape {
     func fill(_ color: MainColors, style: FillStyle = FillStyle()) -> some View {
         fill(color.color, style: style)
-    }
-}
-
-public extension Image {
-    init(decorative image: MainImages, bundle: Bundle? = nil) {
-        self.init(decorative: image.name, bundle: bundle)
     }
 }

@@ -20,11 +20,11 @@ struct MatchTeams: View {
                 .frame(width: 60, height: 60)
 
                 Text(model.leftTeamName)
-                    .foregroundColor(.textPrimary)
+                    .font(.robotoRegular, size: 10, relativeTo: .caption, color: .textPrimary)
             }
 
             Text("generic_vs")
-                .foregroundColor(.textSecondary)
+                .font(.robotoRegular, size: 12, relativeTo: .callout, color: .textSecondary)
 
             VStack(spacing: 8) {
                 PlaceholderImage(
@@ -34,7 +34,7 @@ struct MatchTeams: View {
                 .frame(width: 60, height: 60)
 
                 Text(model.rightTeamName)
-                    .foregroundColor(.textPrimary)
+                    .font(.robotoRegular, size: 10, relativeTo: .caption, color: .textPrimary)
             }
         }
     }

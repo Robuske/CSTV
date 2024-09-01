@@ -16,13 +16,41 @@ struct MatchesList: View {
                 MatchRow(model: match)
             }
             .background(.background)
+
             .listStyle(.plain)
             .scrollContentBackground(.hidden)
+
             .navigationTitle("matches_list_title")
-            .toolbarBackground(.visible, for: .navigationBar)
-            .toolbarBackground(MainColors.background.color, for: .navigationBar)
-            .toolbarColorScheme(.dark, for: .navigationBar)
+            .modifier(CustomizeNavigationBar())
         }
+    }
+}
+
+private struct CustomizeNavigationBar: ViewModifier {
+    init() {
+        let appearance = UINavigationBarAppearance()
+        
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = MainColors.background.uiColor
+        appearance.shadowColor = nil
+
+        appearance.largeTitleTextAttributes = [
+            .font: UIFont(name: MainFonts.robotoMedium.name, size: 32) as Any,
+            .foregroundColor: MainColors.textPrimary.uiColor as Any
+        ]
+        appearance.titleTextAttributes = [
+            .font: UIFont(name: MainFonts.robotoMedium.name, size: 18) as Any,
+            .foregroundColor: MainColors.textPrimary.uiColor as Any
+        ]
+
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        UINavigationBar.appearance().standardAppearance = appearance
+    }
+
+    func body(content: Content) -> some View {
+        content
+            // Would be better to use `.toolbarColorScheme(.dark, for: .navigationBar)`, but any `.toolbar` modifier breaks the other customizations
+            .preferredColorScheme(.dark)
     }
 }
 

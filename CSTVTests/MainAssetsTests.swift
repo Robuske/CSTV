@@ -6,8 +6,10 @@
 //
 
 @testable import CSTV
+import SwiftUI
 import XCTest
 
+// Ensures all necessary resources are present
 final class MainAssetsTests: XCTestCase {
     func testColors() {
         for color in MainColors.allCases {
@@ -18,6 +20,12 @@ final class MainAssetsTests: XCTestCase {
     func testImages() {
         for image in MainImages.allCases {
             XCTAssertNotNil(UIImage(named: image.name), "Could not find image named \(image.name)")
+        }
+    }
+
+    func testFonts() {
+        for font in MainFonts.allCases {
+            XCTAssertNotNil(UIFont(name: font.name, size: 17))
         }
     }
 }

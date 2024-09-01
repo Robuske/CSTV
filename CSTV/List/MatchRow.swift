@@ -37,7 +37,7 @@ struct MatchRow: View {
         HStack {
             Spacer()
             Text(model.timeText)
-                .foregroundColor(.textPrimary)
+                .font(.robotoBold, size: 8, relativeTo: .caption2, color: .textPrimary)
                 .padding(8)
                 .background(model.isLive ? .liveAccent : .timeAccent)
                 .clipShape(TimeRibbon())
@@ -45,7 +45,7 @@ struct MatchRow: View {
     }
 
     private func leagueSection() -> some View {
-        HStack {
+        HStack(spacing: 0) {
             PlaceholderImage(
                 url: model.leagueLogo,
                 placeholderShape: Circle()
@@ -53,7 +53,7 @@ struct MatchRow: View {
             .frame(width: 16, height: 16)
             .padding(8)
             Text(model.description)
-                .foregroundColor(.textPrimary)
+                .font(.robotoRegular, size: 8, relativeTo: .caption2, color: .textPrimary)
             Spacer(minLength: 8)
         }
     }
