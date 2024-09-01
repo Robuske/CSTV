@@ -11,125 +11,69 @@ struct MatchRow: View {
     let model: Model
 
     var body: some View {
-        ZStack {
+        VStack(spacing: 0) {
+            timeSection()
+
+            Spacer(minLength: 16)
+            MatchTeams(model: model.matchTeams)
+            Spacer(minLength: 16)
+
+            Divider()
+                .background(.separator)
+
+            leagueSection()
+                .padding(.horizontal, 8)
+        }
+        .background(
             RoundedRectangle(cornerRadius: 16)
                 .fill(.elevated)
-            VStack {
-                HStack {
-                    Spacer()
-                    Text(model.timeText)
-                        .foregroundColor(.textPrimary)
-                        .padding(8)
-                        .background(
-                            RoundedRectangle(cornerRadius: 16)
-                                .fill(model.isLive ? .liveAccent : .timeAccent)
-                        )
-                }
-                Spacer()
-                HStack {
-                    VStack {
-                        AsyncImage(url: model.leftTeamLogo) { image in
-                            image
-                        } placeholder: {
-                            Color(MainColors.placeholder.name)
-                        }
-                        .clipShape(Circle())
-                        .frame(width: 60, height: 60)
-                        .padding(8)
-                        Text(model.leftTeamName)
-                            .foregroundColor(.textPrimary)
-                    }
-                    Text("generic_vs")
-                        .foregroundColor(.textSecondary)
-                    VStack {
-                        AsyncImage(url: model.rightTeamLogo) { image in
-                            image
-                        } placeholder: {
-                            Color(MainColors.placeholder.name)
-                        }
-                        .clipShape(Circle())
-                        .frame(width: 60, height: 60)
-                        .padding(8)
-                        Text(model.rightTeamName)
-                            .foregroundColor(.textPrimary)
-                    }
-                }
-                Divider()
-                    .background(.separator)
-                HStack {
-                    AsyncImage(url: model.leagueLogo) { image in
-                        image
-                    } placeholder: {
-                        Color(MainColors.placeholder.name)
-                    }
-                    .clipShape(Circle())
-                    .frame(width: 16, height: 16)
-                    .padding(8)
-                    Text(model.description)
-                        .foregroundColor(.textPrimary)
-                    Spacer()
-                }
-            }
-        }
+        )
         .padding(.vertical, 12)
         .listRowBackground(Color.clear)
         .listRowSeparator(.hidden)
     }
+
+    private func timeSection() -> some View {
+        HStack {
+            Spacer()
+            Text(model.timeText)
+                .foregroundColor(.textPrimary)
+                .padding(8)
+                .background(model.isLive ? .liveAccent : .timeAccent)
+                .clipShape(TimeRibbon())
+        }
+    }
+
+    private func leagueSection() -> some View {
+        HStack {
+            PlaceholderImage(
+                url: model.leagueLogo,
+                placeholderShape: Circle()
+            )
+            .frame(width: 16, height: 16)
+            .padding(8)
+            Text(model.description)
+                .foregroundColor(.textPrimary)
+            Spacer(minLength: 8)
+        }
+    }
 }
 
-extension MatchRow {
-    struct Model: Identifiable {
-        let id: String
+private struct TimeRibbon: Shape {
+    private let radius = 16
+    private let corners: UIRectCorner = [.bottomLeft, .topRight]
 
-        let isLive: Bool
-        let timeText: String
+    init() {}
 
-        let leftTeamLogo: URL?
-        let leftTeamName: String
-        let rightTeamLogo: URL?
-        let rightTeamName: String
-
-        let leagueLogo: URL?
-        let description: String
-
-        static let liveMock = Self
-            .init(
-                id: "liveMock",
-                isLive: true,
-                timeText: String(localized: "match_time_now"),
-                leftTeamLogo: nil,
-                leftTeamName: "Left Team",
-                rightTeamLogo: nil,
-                rightTeamName: "Right Team",
-                leagueLogo: nil,
-                description: "Live Mock"
+    func path(in rect: CGRect) -> Path {
+        Path(
+            UIBezierPath(
+                roundedRect: rect,
+                byRoundingCorners: corners,
+                cornerRadii: .init(width: radius, height: radius)
             )
-
-        static let closeUpcomingMock = Self
-            .init(
-                id: "closeUpcomingMock",
-                isLive: false,
-                timeText: "Close Time",
-                leftTeamLogo: nil,
-                leftTeamName: "Left Team",
-                rightTeamLogo: nil,
-                rightTeamName: "Right Team",
-                leagueLogo: nil,
-                description: "Close Upcoming Mock"
-            )
-
-        static let farUpcomingMock = Self
-            .init(
-                id: "farUpcomingMock",
-                isLive: false,
-                timeText: "Far Time",
-                leftTeamLogo: nil,
-                leftTeamName: "Left Team",
-                rightTeamLogo: nil,
-                rightTeamName: "Right Team",
-                leagueLogo: nil,
-                description: "Far Upcoming Mock"
-            )
+            .cgPath
+        )
     }
 }
 
