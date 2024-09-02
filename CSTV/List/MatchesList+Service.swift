@@ -54,10 +54,9 @@ extension MatchesList {
         }
     }
 
-    // TODO: Improve
-    struct MockService: MatchesListServiceable {
+    struct MockService: JSONMockClient, MatchesListServiceable {
         func getUpcomingMatches() async throws -> [UpcomingMatches] {
-            fatalError()
+            loadJSON(filename: "matches_upcoming")
         }
     }
 }

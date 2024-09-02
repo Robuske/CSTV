@@ -29,6 +29,7 @@
 		EA9DEA212C85977E00A1C44F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA202C85977E00A1C44F /* NetworkError.swift */; };
 		EA9DEA232C8597D200A1C44F /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA222C8597D200A1C44F /* ViewState.swift */; };
 		EA9DEA262C85A5D800A1C44F /* matches_upcoming.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9DEA252C85A5D700A1C44F /* matches_upcoming.json */; };
+		EA9DEA282C85AB6900A1C44F /* JSONMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		EA9DEA202C85977E00A1C44F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		EA9DEA222C8597D200A1C44F /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 		EA9DEA252C85A5D700A1C44F /* matches_upcoming.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matches_upcoming.json; sourceTree = "<group>"; };
+		EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMockClient.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				EA9DEA202C85977E00A1C44F /* NetworkError.swift */,
 				EA9DEA182C8557BB00A1C44F /* HTTPClient.swift */,
+				EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */,
 				EA9DEA1A2C8576DB00A1C44F /* Endpoint.swift */,
 				EA9DEA1C2C85774D00A1C44F /* PandaEndpoint.swift */,
 			);
@@ -319,6 +322,7 @@
 				EA8CE9E22C841281009748C4 /* MainFonts.swift in Sources */,
 				EA9DEA1B2C8576DB00A1C44F /* Endpoint.swift in Sources */,
 				EA8CE9E42C84128D009748C4 /* MainImages.swift in Sources */,
+				EA9DEA282C85AB6900A1C44F /* JSONMockClient.swift in Sources */,
 				EA9DEA1F2C8578C800A1C44F /* MatchesList+Service.swift in Sources */,
 				EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */,
 				EA9BCE7F2C83EE6700F2A434 /* MatchRow+Model.swift in Sources */,
