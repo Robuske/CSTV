@@ -1,0 +1,75 @@
+[
+    {
+        "id" : 133458,
+        "players" : [
+            {
+                "first_name" : "Vladislav",
+                "id" : 23238,
+                "image_url" : "https://cdn.pandascore.co/images/player/image/23238/900px_nafany_berlin_minor.png",
+                "last_name" : "Gorshkov",
+                "name" : "nafany"
+            },
+            {
+                "first_name" : "Alexandr",
+                "id" : 23853,
+                "last_name" : "Zagodyrenko",
+                "name" : "zorte"
+            },
+            {
+                "first_name" : "Aleksandr",
+                "id" : 26545,
+                "last_name" : "Anashkin",
+                "name" : "KaiR0N"
+            },
+            {
+                "first_name" : "Pavel ",
+                "id" : 29326,
+                "last_name" : "Ogloblin",
+                "name" : "s1ren"
+            },
+            {
+                "first_name" : "Kirill",
+                "id" : 38432,
+                "last_name" : "Rodnov",
+                "name" : "Magnojez"
+            }
+        ]
+    },
+    {
+        "id" : 131441,
+        "players" : [
+            {
+                "first_name" : "Paweł",
+                "id" : 20381,
+                "image_url" : "https://cdn.pandascore.co/images/player/image/20381/600px_dycha___iem_fall_2021.png",
+                "last_name" : "Dycha",
+                "name" : "dycha"
+            },
+            {
+                "first_name" : "Olek",
+                "id" : 23117,
+                "image_url" : "https://cdn.pandascore.co/images/player/image/23117/600px_hades___iem_fall_2021.png",
+                "last_name" : "Miskiewicz",
+                "name" : "hades"
+            },
+            {
+                "first_name" : "Sergiy",
+                "id" : 24676,
+                "last_name" : "Demchenko",
+                "name" : "DemQQ"
+            },
+            {
+                "first_name" : "Kamil",
+                "id" : 25040,
+                "last_name" : "Pietkun",
+                "name" : "KEi"
+            },
+            {
+                "first_name" : "Szymon",
+                "id" : 30017,
+                "last_name" : "Mrozek",
+                "name" : "kRaSnaL"
+            }
+        ]
+    }
+]

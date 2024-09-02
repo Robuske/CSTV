@@ -35,16 +35,15 @@ struct MatchDetails: View {
                         Text(error.localizedDescription)
                             .font(.robotoRegular, size: 12, relativeTo: .caption, color: .textPrimary)
                     }
-
-                    Spacer()
                 }
             }
         }
         .navigationTitle(viewModel.title)
+        .navigationBarTitleDisplayMode(.inline)
     }
 
     private func loadedView(_ players: (left: [PlayerDetails.Model], right: [PlayerDetails.Model])) -> some View {
-        HStack(spacing: 12) {
+        HStack(alignment: .top, spacing: 12) {
             VStack(spacing: 12) {
                 ForEach(players.left) { model in
                     PlayerDetails(isLeading: true, model: model)

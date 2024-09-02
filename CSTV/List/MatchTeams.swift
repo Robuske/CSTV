@@ -51,10 +51,10 @@ extension MatchTeams {
 
         static let mock = Self
             .init(
-                leftTeamID: 10,
+                leftTeamID: 133458,
                 leftTeamLogo: nil,
                 leftTeamName: "Left Team",
-                rightTeamID: 20,
+                rightTeamID: 131441,
                 rightTeamLogo: nil,
                 rightTeamName: "Right Team"
             )
