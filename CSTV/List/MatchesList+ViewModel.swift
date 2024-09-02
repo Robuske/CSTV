@@ -69,7 +69,10 @@ extension MatchRow.Model {
             time = String(localized: "match_time_now")
 
         } else {
-            time = response.beginAt.formatted(.dateTime.weekday(.narrow).month(.twoDigits).hour(.twoDigits(amPM: .abbreviated)).minute(.twoDigits))
+            // Does not follow the design perfectly, but has better localization
+            time = response.beginAt.formatted(
+                .dateTime.day(.twoDigits).month(.twoDigits).hour(.twoDigits(amPM: .abbreviated)).minute(.twoDigits)
+            )
         }
 
         self = .init(
