@@ -8,7 +8,7 @@
 import Foundation
 
 enum PandaEndpoint {
-    case upcomingMatches
+    case matches
     case matchDetail(id: String)
 }
 
@@ -37,11 +37,35 @@ extension PandaEndpoint: Endpoint {
     
     var path: String {
         switch self {
-        case .upcomingMatches:
-            return "/csgo/matches/upcoming"
+        case .matches:
+            return "/csgo/matches"
 
         case let .matchDetail(id):
             return "/csgo/matches/\(id)"
         }
+    }
+
+    var queryItems: [URLQueryItem]? {
+        switch self {
+        case .matches:
+            return [
+                .init(name: "filter[opponents_filled]", value: "true"), // Only shows matches with opponents information
+                .init(name: "filter[status]", value: "not_started,running"), // Only shows matches that haven't started or are running
+                .init(name: "sort", value: "-status,begin_at") // Sort in descending order based on status and ascending on begin_at
+            ]
+
+        case .matchDetail:
+            return nil
+        }
+    }
+}
+
+extension URL {
+    /// Creates new `URL` prepending `"thumb_"` to `lastPathComponent`
+    func withPathToThumbVersion() -> URL {
+        var url = deletingLastPathComponent()
+        url.append(path: "thumb_\(lastPathComponent)")
+
+        return url
     }
 }

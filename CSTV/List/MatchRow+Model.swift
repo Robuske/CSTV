@@ -9,7 +9,7 @@ import Foundation
 
 extension MatchRow {
     struct Model: Identifiable {
-        let id: String
+        let id: UInt
 
         let isLive: Bool
         let timeText: String
@@ -21,7 +21,7 @@ extension MatchRow {
 
         static let liveMock = Self
             .init(
-                id: "liveMock",
+                id: 0,
                 isLive: true,
                 timeText: String(localized: "match_time_now"),
                 matchTeams: .mock,
@@ -31,7 +31,7 @@ extension MatchRow {
 
         static let closeUpcomingMock = Self
             .init(
-                id: "closeUpcomingMock",
+                id: 1,
                 isLive: false,
                 timeText: "Close Time",
                 matchTeams: .mock,
@@ -41,7 +41,7 @@ extension MatchRow {
 
         static let farUpcomingMock = Self
             .init(
-                id: "farUpcomingMock",
+                id: 2,
                 isLive: false,
                 timeText: "Far Time",
                 matchTeams: .mock,

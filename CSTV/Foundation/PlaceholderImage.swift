@@ -14,6 +14,7 @@ struct PlaceholderImage<Placeholder: Shape>: View {
     var body: some View {
         AsyncImage(url: url) { image in
             image
+                .resizable()
 
         } placeholder: {
             MainColors.placeholder.color

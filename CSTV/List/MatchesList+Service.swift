@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UpcomingMatches: Decodable {
+struct MatchesResponse: Decodable {
     let beginAt: Date
     let league: League
     let id: UInt
@@ -44,19 +44,19 @@ struct UpcomingMatches: Decodable {
 }
 
 protocol MatchesListServiceable {
-    func getUpcomingMatches() async throws -> [UpcomingMatches]
+    func getMatches() async throws -> [MatchesResponse]
 }
 
 extension MatchesList {
     struct Service: HTTPClient, MatchesListServiceable {
-        func getUpcomingMatches() async throws -> [UpcomingMatches] {
-            try await request(endpoint: PandaEndpoint.upcomingMatches)
+        func getMatches() async throws -> [MatchesResponse] {
+            try await request(endpoint: PandaEndpoint.matches)
         }
     }
 
     struct MockService: JSONMockClient, MatchesListServiceable {
-        func getUpcomingMatches() async throws -> [UpcomingMatches] {
-            loadJSON(filename: "matches_upcoming")
+        func getMatches() async throws -> [MatchesResponse] {
+            loadJSON(filename: "matches")
         }
     }
 }

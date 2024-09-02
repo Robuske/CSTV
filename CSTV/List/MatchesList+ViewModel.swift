@@ -23,9 +23,9 @@ extension MatchesList {
         func loadMatches() async {
             // Because of pull to refresh, .loading is only used from empty
             do {
-                let upcomingMatches = try await service.getUpcomingMatches()
-                let matches = upcomingMatches.map(MatchRow.Model.init)
-                state = .loaded(matches)
+                let matches = try await service.getMatches()
+                let matchRows = matches.compactMap(MatchRow.Model.init)
+                state = .loaded(matchRows)
 
             } catch {
                 handle(error: error)
@@ -54,8 +54,36 @@ extension MatchesList.ViewModel {
 }
 
 extension MatchRow.Model {
-    init(from response: UpcomingMatches) {
-        // TODO: Finish
-        self = Self.closeUpcomingMock
+    init?(from response: MatchesResponse) {
+        // Makes sure the necessary team info is available
+        guard response.opponents.count == 2,
+              let leftTeam = response.opponents.first?.opponent,
+              let rightTeam = response.opponents.last?.opponent else {
+            return nil
+        }
+
+        let isRunning = response.status == .running
+        let time: String
+
+        if isRunning {
+            time = String(localized: "match_time_now")
+
+        } else {
+            time = response.beginAt.formatted(.dateTime.weekday(.narrow).month(.twoDigits).hour(.twoDigits(amPM: .abbreviated)).minute(.twoDigits))
+        }
+
+        self = .init(
+            id: response.id,
+            isLive: isRunning,
+            timeText: time,
+            matchTeams: .init(
+                leftTeamLogo: leftTeam.imageUrl?.withPathToThumbVersion(),
+                leftTeamName: leftTeam.name,
+                rightTeamLogo: rightTeam.imageUrl?.withPathToThumbVersion(),
+                rightTeamName: rightTeam.name
+            ),
+            leagueLogo: response.league.imageUrl?.withPathToThumbVersion(),
+            description: "\(response.league.name) \(response.serie.fullName)"
+        )
     }
 }
