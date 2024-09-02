@@ -12,20 +12,36 @@ struct MatchesList: View {
 
     var body: some View {
         NavigationView {
-            List(viewModel.matches) { match in
-                MatchRow(model: match)
-            }
-            .refreshable {
-                viewModel.refresh()
-            }
-            .background(.background)
+            ZStack {
+                MainColors.background.color
+                    .ignoresSafeArea()
 
-            .listStyle(.plain)
-            .scrollContentBackground(.hidden)
+                switch viewModel.state {
+                case .loading:
+                    ProgressView()
+                        .task(viewModel.loadMatches)
 
+                case let .loaded(matches):
+                    loadedView(matches)
+
+                case let .error(error):
+                    // TODO: Improve error handling
+                    Text(error.localizedDescription)
+                }
+            }
             .navigationTitle("matches_list_title")
             .modifier(CustomizeNavigationBar())
         }
+    }
+
+    func loadedView(_ matches: [MatchRow.Model]) -> some View {
+        List(matches) { match in
+            MatchRow(model: match)
+        }
+        .refreshable(action: viewModel.loadMatches)
+
+        .listStyle(.plain)
+        .scrollContentBackground(.hidden)
     }
 }
 
@@ -59,6 +75,6 @@ private struct CustomizeNavigationBar: ViewModifier {
 
 struct MatchesList_Previews: PreviewProvider {
     static var previews: some View {
-        MatchesList(viewModel: .init())
+        MatchesList(viewModel:  .mock)
     }
 }

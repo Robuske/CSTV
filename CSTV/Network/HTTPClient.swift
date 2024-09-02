@@ -7,13 +7,6 @@
 
 import Foundation
 
-public enum NetworkError: Error {
-    case invalidURL
-    case invalidResponse
-    case unauthorized
-    case unexpectedStatusCode
-}
-
 public protocol HTTPClient {
     func request<Response: Decodable>(
         endpoint: Endpoint
@@ -61,7 +54,7 @@ public extension HTTPClient {
     }
 
     private func decode<Response: Decodable>(data: Data) throws -> Response {
-        var decoder = JSONDecoder()
+        let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
 
         return try decoder.decode(Response.self, from: data)
