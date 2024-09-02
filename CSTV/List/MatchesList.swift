@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct MatchesList: View {
-    @StateObject var viewModel: MatchesListViewModel
+    @StateObject var viewModel: ViewModel
 
     var body: some View {
         NavigationView {
             List(viewModel.matches) { match in
                 MatchRow(model: match)
+            }
+            .refreshable {
+                viewModel.refresh()
             }
             .background(.background)
 
