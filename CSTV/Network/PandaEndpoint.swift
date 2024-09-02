@@ -62,7 +62,7 @@ extension PandaEndpoint: Endpoint {
 
 extension URL {
     /// Creates new `URL` prepending `"thumb_"` to `lastPathComponent`
-    func withPathToThumbVersion() -> URL {
+    func withPathToThumb() -> URL {
         var url = deletingLastPathComponent()
         url.append(path: "thumb_\(lastPathComponent)")
 

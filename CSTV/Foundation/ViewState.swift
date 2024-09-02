@@ -12,3 +12,15 @@ public enum ViewState<Value> {
     case error(Error)
     case loaded(Value)
 }
+
+public extension ViewState {
+    var isLoading: Bool {
+        switch self {
+        case .loading:
+            return true
+
+        case .error, .loaded:
+            return false
+        }
+    }
+}

@@ -28,4 +28,12 @@ final class MainAssetsTests: XCTestCase {
             XCTAssertNotNil(UIFont(name: font.name, size: 17))
         }
     }
+
+    func testURLWithPathToThumb() {
+        let url = URL(string: "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png")!
+
+        let modifiedURL = url.withPathToThumb()
+
+        XCTAssertEqual(modifiedURL.absoluteString, "https://cdn.pandascore.co/images/league/image/5232/thumb_799px-cct_2024_europe_allmode-png")
+    }
 }

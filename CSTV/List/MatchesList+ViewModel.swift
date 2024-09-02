@@ -41,13 +41,6 @@ extension MatchesList {
 extension MatchesList.ViewModel {
     static var mock: Self {
         .init(
-            state: .loaded(
-                [
-                    .liveMock,
-                    .closeUpcomingMock,
-                    .farUpcomingMock
-                ]
-            ),
             service: MatchesList.MockService()
         )
     }
@@ -80,12 +73,12 @@ extension MatchRow.Model {
             isLive: isRunning,
             timeText: time,
             matchTeams: .init(
-                leftTeamLogo: leftTeam.imageUrl?.withPathToThumbVersion(),
+                leftTeamLogo: leftTeam.imageUrl?.withPathToThumb(),
                 leftTeamName: leftTeam.name,
-                rightTeamLogo: rightTeam.imageUrl?.withPathToThumbVersion(),
+                rightTeamLogo: rightTeam.imageUrl?.withPathToThumb(),
                 rightTeamName: rightTeam.name
             ),
-            leagueLogo: response.league.imageUrl?.withPathToThumbVersion(),
+            leagueLogo: response.league.imageUrl?.withPathToThumb(),
             description: "\(response.league.name) \(response.serie.fullName)"
         )
     }

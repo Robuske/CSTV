@@ -30,6 +30,7 @@
 		EA9DEA232C8597D200A1C44F /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA222C8597D200A1C44F /* ViewState.swift */; };
 		EA9DEA262C85A5D800A1C44F /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9DEA252C85A5D700A1C44F /* matches.json */; };
 		EA9DEA282C85AB6900A1C44F /* JSONMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */; };
+		EA9DEA2A2C85D58F00A1C44F /* MatchesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		EA9DEA222C8597D200A1C44F /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 		EA9DEA252C85A5D700A1C44F /* matches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
 		EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMockClient.swift; sourceTree = "<group>"; };
+		EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListViewModelTests.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				EA8DB9B22C800F5800D80D94 /* MainAssetsTests.swift */,
+				EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */,
 			);
 			path = CSTVTests;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9DEA2A2C85D58F00A1C44F /* MatchesListViewModelTests.swift in Sources */,
 				EA8DB9B32C800F5800D80D94 /* MainAssetsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
