@@ -1,0 +1,1338 @@
+[
+    {
+        "begin_at" : "2024-09-02T08:00:00Z",
+        "id" : 1033256,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5153/ezgif-1-5b87cf7924-png",
+            "name" : "YaLLa Compass"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134109,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134109/628px_bleed_e_sports_2023_allmode.png",
+                    "name" : "Bleed Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 129381,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129381/600px_b8_logo_dark.png",
+                    "name" : "B8"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Summer 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T08:00:00Z",
+        "id" : 1033247,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 130566,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/130566/gladiators_2022_allmode.png",
+                    "name" : "Gaimin Gladiators"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133725,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133725/285px_alliance_2024_allmode.png",
+                    "name" : "Alliance"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T08:00:00Z",
+        "id" : 1032772,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4854/799px-european_pro_league_2023_lightmode-png",
+            "name" : "European Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 131980,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131980/viperiologo_square.png",
+                    "name" : "Viperio"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 130421,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/130421/d8_wxn_rx.png",
+                    "name" : "9INE Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Division 2 season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T08:00:00Z",
+        "id" : 1031220,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5078/800px-united21_allmode-png",
+            "name" : "United21"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 126208,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126208/illuminar_gaminglogo_square.png",
+                    "name" : "Illuminar"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 128341,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128341/1200px_astralis_logo.svg.png",
+                    "name" : "Astralis Talent"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 19 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T09:00:00Z",
+        "id" : 1031923,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4372/1200px-elisa_invitational_2021_lightmode-png",
+            "name" : "Elisa Invitational"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3220,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3220/600px-TeamSoloMid.png",
+                    "name" : "TSM"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 129444,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129444/567px_into_the_breach_purple_2024_allmode.png",
+                    "name" : "Into The Breach"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Fall 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T10:00:00Z",
+        "id" : 1028889,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 127014,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127014/927px_sinners_esports_full_allmode.png",
+                    "name" : "Sinners"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133565,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133565/190px_revenant_esports_in_lightmode.png",
+                    "name" : "Revenant Esports"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T10:30:00Z",
+        "id" : 1032773,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4854/799px-european_pro_league_2023_lightmode-png",
+            "name" : "European Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3280,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3280/GODSENT.png",
+                    "name" : "GODSENT"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 126491,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126491/630px_na_vi_jr.png",
+                    "name" : "NAVI Junior"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Division 2 season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T10:30:00Z",
+        "id" : 1031222,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5078/800px-united21_allmode-png",
+            "name" : "United21"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133063,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133063/190px_u_ni_ty_esports_allmode.png",
+                    "name" : "UNiTY esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133269,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133269/152px_l_g_2023_allmode.png",
+                    "name" : "L&G"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 19 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T10:30:00Z",
+        "id" : 1028855,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5022/751px-thunderpick_world_championship_allmode-png",
+            "name" : "Thunderpick World Championship"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 125847,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/125847/800px_gamer_legion_2023_lightmode.png",
+                    "name" : "GamerLegion"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 3223,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3223/CLOUD_9.png",
+                    "name" : "Cloud9"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "European Series #2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T11:00:00Z",
+        "id" : 1033257,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5153/ezgif-1-5b87cf7924-png",
+            "name" : "YaLLa Compass"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 126408,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126408/d8_wxn_rx.png",
+                    "name" : "9INE"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131189,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131189/105px_eyeballers_allmode.png",
+                    "name" : "EYEBALLERS"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Summer 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T11:00:00Z",
+        "id" : 1033248,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133125,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133125/140px_aurora_young_blud_allmode.png",
+                    "name" : "Aurora Young Blood"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 129856,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129856/600px_ecstatic_2023_allmode.png",
+                    "name" : "ECSTATIC"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T11:00:00Z",
+        "id" : 1030827,
+        "league" : {
+            "name" : "Prodigy"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134261,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134261/600px_copenhagen_wolves_2012_allmode.png",
+                    "name" : "Copenhagen Wolves"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 130421,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/130421/d8_wxn_rx.png",
+                    "name" : "9INE Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T12:00:00Z",
+        "id" : 1031924,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4372/1200px-elisa_invitational_2021_lightmode-png",
+            "name" : "Elisa Invitational"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 129440,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129440/900px_metizport_2023_allmode.png",
+                    "name" : "Metizport"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 134964,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134964/285px_favbet_team_allmode.png",
+                    "name" : "Favbet"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Fall 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T13:00:00Z",
+        "id" : 1028890,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 132060,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/132060/171px_permitta_esports_allmode.png",
+                    "name" : "Permitta Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133725,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133725/285px_alliance_2024_allmode.png",
+                    "name" : "Alliance"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T13:30:00Z",
+        "id" : 1028852,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5022/751px-thunderpick_world_championship_allmode-png",
+            "name" : "Thunderpick World Championship"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133458,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133458/bet_boom_team_2024_allmode.png",
+                    "name" : "BetBoom Team"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131441,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131441/633px_monte_2022_allmode.png",
+                    "name" : "Monte"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "European Series #2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T14:00:00Z",
+        "id" : 1033249,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133542,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133542/128px_cybershoke_esports_allmode.png",
+                    "name" : "CYBERSHOKE Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 127650,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127650/600px_rhyno_esports.png",
+                    "name" : "Rhyno"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T14:00:00Z",
+        "id" : 1030828,
+        "league" : {
+            "name" : "Prodigy"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3280,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3280/GODSENT.png",
+                    "name" : "GODSENT"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 128519,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128519/genone_csgo.png",
+                    "name" : "GenOne"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T14:30:00Z",
+        "id" : 1033124,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4842/600px-cct_south_america_icon_allmode-png",
+            "name" : "CCT South America"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133067,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133067/600px_teamsolid_lightmode.png",
+                    "name" : "Team Solid"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 135190,
+                    "name" : "Bad News Chickens"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #3 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T16:00:00Z",
+        "id" : 1028891,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 126507,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126507/7234.png",
+                    "name" : "Endpoint"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 126408,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126408/d8_wxn_rx.png",
+                    "name" : "9INE"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T17:00:00Z",
+        "id" : 1033250,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133565,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133565/190px_revenant_esports_in_lightmode.png",
+                    "name" : "Revenant Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 134964,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134964/285px_favbet_team_allmode.png",
+                    "name" : "Favbet"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T17:00:00Z",
+        "id" : 1030835,
+        "league" : {
+            "name" : "Prodigy"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 128327,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128327/900px_ninjas_in_pyjamas_2021.png",
+                    "name" : "Young Ninjas"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133463,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133463/215px_preasy_esport_allmode.png",
+                    "name" : "Preasy Esport"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T17:30:00Z",
+        "id" : 1033123,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4842/600px-cct_south_america_icon_allmode-png",
+            "name" : "CCT South America"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 131253,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131253/900px_oddik_allmode.png",
+                    "name" : "ODDIK"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 128373,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128373/9z_team_2024_lightmode.png",
+                    "name" : "9z Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #3 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T19:00:00Z",
+        "id" : 1026392,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4995/600px-uk_and_ireland_circuit_lightmode-png",
+            "name" : "UKIC"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 135225,
+                    "name" : "The Boys"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 134503,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134503/ezgif_4_22af703f6f.png",
+                    "name" : "DreamsToLegends"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Division 1 season 3 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T20:30:00Z",
+        "id" : 1033129,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4842/600px-cct_south_america_icon_allmode-png",
+            "name" : "CCT South America"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 132800,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/132800/124px_bestia_lightmode.png",
+                    "name" : "BESTIA"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131849,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131849/pai_n_gaminglogo_square.png",
+                    "name" : "paiN Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #3 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-02T23:30:00Z",
+        "id" : 1033125,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4842/600px-cct_south_america_icon_allmode-png",
+            "name" : "CCT South America"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3260,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3260/406305342_668863775429925_5373187791225655495_n.png",
+                    "name" : "Sharks"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131538,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131538/285px_yawara_esports_lightmode.png",
+                    "name" : "Yawara Esports"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #3 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T00:00:00Z",
+        "id" : 1033156,
+        "league" : {
+            "name" : "ESL Challenger League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133708,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133708/legacy_full_lightmode.png",
+                    "name" : "Legacy"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133907,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133907/190px_boss_cs2_allmode.png",
+                    "name" : "BOSS"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "North America season 48 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T01:00:00Z",
+        "id" : 1033157,
+        "league" : {
+            "name" : "ESL Challenger League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133907,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133907/190px_boss_cs2_allmode.png",
+                    "name" : "BOSS"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133708,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133708/legacy_full_lightmode.png",
+                    "name" : "Legacy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "North America season 48 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T08:00:00Z",
+        "id" : 1033258,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5153/ezgif-1-5b87cf7924-png",
+            "name" : "YaLLa Compass"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134113,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134113/144px_amkal_esports_lightmode.png",
+                    "name" : "AMKAL ESPORTS"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133686,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133686/103px_passion_ua_allmode.png",
+                    "name" : "Passion UA"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Summer 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T08:00:00Z",
+        "id" : 1033252,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133726,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133726/236px_gun5_esports_allmode.png",
+                    "name" : "GUN5 Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131549,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131549/707px_jano_esports_lightmode.png",
+                    "name" : "JANO Esports"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T08:00:00Z",
+        "id" : 1032777,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4854/799px-european_pro_league_2023_lightmode-png",
+            "name" : "European Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 132060,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/132060/171px_permitta_esports_allmode.png",
+                    "name" : "Permitta Esports"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 128766,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128766/900px_team_spirit_academy_2021_logo.png",
+                    "name" : "Spirit Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Division 2 season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T08:00:00Z",
+        "id" : 1031227,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5078/800px-united21_allmode-png",
+            "name" : "United21"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 133463,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133463/215px_preasy_esport_allmode.png",
+                    "name" : "Preasy Esport"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131980,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131980/viperiologo_square.png",
+                    "name" : "Viperio"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 19 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T08:30:00Z",
+        "id" : 1028892,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T09:00:00Z",
+        "id" : 1031925,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4372/1200px-elisa_invitational_2021_lightmode-png",
+            "name" : "Elisa Invitational"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 127743,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127743/t49839.png",
+                    "name" : "Enterprise"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 127496,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127496/sampi_s_transparent.png",
+                    "name" : "Sampi"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Fall 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T10:30:00Z",
+        "id" : 1032778,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4854/799px-european_pro_league_2023_lightmode-png",
+            "name" : "European Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134261,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134261/600px_copenhagen_wolves_2012_allmode.png",
+                    "name" : "Copenhagen Wolves"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 132460,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/132460/222px_heimo_esports_allmode.png",
+                    "name" : "Heimo Esports"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Division 2 season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T10:30:00Z",
+        "id" : 1031228,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5078/800px-united21_allmode-png",
+            "name" : "United21"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 127743,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127743/t49839.png",
+                    "name" : "Enterprise"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133786,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133786/190px_project_g_full_lightmode.png",
+                    "name" : "Project G"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 19 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T10:30:00Z",
+        "id" : 1028853,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5022/751px-thunderpick_world_championship_allmode-png",
+            "name" : "Thunderpick World Championship"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 130566,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/130566/gladiators_2022_allmode.png",
+                    "name" : "Gaimin Gladiators"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 127014,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127014/927px_sinners_esports_full_allmode.png",
+                    "name" : "Sinners"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "European Series #2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T11:00:00Z",
+        "id" : 1033260,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5153/ezgif-1-5b87cf7924-png",
+            "name" : "YaLLa Compass"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 131010,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131010/get_team_logos.png",
+                    "name" : "Sashi Esport"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 124522,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/124522/NEMIGA.png",
+                    "name" : "Nemiga"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Summer 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T11:00:00Z",
+        "id" : 1033253,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 131189,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131189/105px_eyeballers_allmode.png",
+                    "name" : "EYEBALLERS"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 133943,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/133943/106px_monte_gen_allmode.png",
+                    "name" : "Monte Gen"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T11:30:00Z",
+        "id" : 1031707,
+        "league" : {
+            "name" : "ESL Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 126439,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/126439/lynn_vision_gaming_2020.png",
+                    "name" : "Lynn Vision"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 3216,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3216/1022px_natus_vincere_2021_lightmode.png",
+                    "name" : "Natus Vincere"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T11:30:00Z",
+        "id" : 1031705,
+        "league" : {
+            "name" : "ESL Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134746,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134746/fly_questlogo_square.png",
+                    "name" : "FlyQuest"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 129413,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129413/800px_eternal_fire_2023_allmode.png",
+                    "name" : "Eternal Fire"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T11:30:00Z",
+        "id" : 1028893,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T12:00:00Z",
+        "id" : 1031926,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4372/1200px-elisa_invitational_2021_lightmode-png",
+            "name" : "Elisa Invitational"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 129685,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129685/zero_tenacitylogo_square.png",
+                    "name" : "Zero Tenacity"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 134270,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134270/285px_dash_allmode.png",
+                    "name" : "DASH"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Fall 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T13:30:00Z",
+        "id" : 1028861,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5022/751px-thunderpick_world_championship_allmode-png",
+            "name" : "Thunderpick World Championship"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 129381,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129381/600px_b8_logo_dark.png",
+                    "name" : "B8"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 3220,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3220/600px-TeamSoloMid.png",
+                    "name" : "TSM"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "European Series #2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:00:00Z",
+        "id" : 1033254,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 128327,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128327/900px_ninjas_in_pyjamas_2021.png",
+                    "name" : "Young Ninjas"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 128766,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128766/900px_team_spirit_academy_2021_logo.png",
+                    "name" : "Spirit Academy"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Series #11 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:00:00Z",
+        "id" : 1030829,
+        "league" : {
+            "name" : "Prodigy"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 128341,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/128341/1200px_astralis_logo.svg.png",
+                    "name" : "Astralis Talent"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 131980,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/131980/viperiologo_square.png",
+                    "name" : "Viperio"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:30:00Z",
+        "id" : 1033131,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4842/600px-cct_south_america_icon_allmode-png",
+            "name" : "CCT South America"
+        },
+        "opponents" : [
+
+        ],
+        "serie" : {
+            "full_name" : "Series #3 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:30:00Z",
+        "id" : 1031706,
+        "league" : {
+            "name" : "ESL Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3246,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3246/680px_heroic_2023_allmode.png",
+                    "name" : "Heroic"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 3218,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3218/600px_ninjas_in_pyjamas_2021.png",
+                    "name" : "NIP"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:30:00Z",
+        "id" : 1031702,
+        "league" : {
+            "name" : "ESL Pro League"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 3212,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/3212/FAZE_CLAN.png",
+                    "name" : "FaZe"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 127365,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/127365/sangal.png",
+                    "name" : "Sangal"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Season 20 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T14:30:00Z",
+        "id" : 1028894,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/5232/799px-cct_2024_europe_allmode-png",
+            "name" : "CCT Europe"
+        },
+        "opponents" : [
+
+        ],
+        "serie" : {
+            "full_name" : "Series #10 season 2 2024"
+        },
+        "status" : "not_started"
+    },
+    {
+        "begin_at" : "2024-09-03T16:00:00Z",
+        "id" : 1032598,
+        "league" : {
+            "image_url" : "https://cdn.pandascore.co/images/league/image/4272/Svenska_Elitserien_2018_Logo.png",
+            "name" : "Svenska Elitserien"
+        },
+        "opponents" : [
+            {
+                "opponent" : {
+                    "id" : 134188,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/134188/190px_johnny_speeds_allmode.png",
+                    "name" : "Johnny Speeds"
+                }
+            },
+            {
+                "opponent" : {
+                    "id" : 129494,
+                    "image_url" : "https://cdn.pandascore.co/images/team/image/129494/logo_247x300.png",
+                    "name" : "Kappa Bar"
+                }
+            }
+        ],
+        "serie" : {
+            "full_name" : "Fall 2024"
+        },
+        "status" : "not_started"
+    }
+]

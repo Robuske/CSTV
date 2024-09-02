@@ -24,8 +24,8 @@ extension MatchesList {
             // Because of pull to refresh, .loading is only used from empty
             do {
                 let upcomingMatches = try await service.getUpcomingMatches()
-                let match = MatchRow.Model(from: upcomingMatches)
-                state = .loaded([match])
+                let matches = upcomingMatches.map(MatchRow.Model.init)
+                state = .loaded(matches)
 
             } catch {
                 handle(error: error)

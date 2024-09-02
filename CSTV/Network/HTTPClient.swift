@@ -56,6 +56,7 @@ public extension HTTPClient {
     private func decode<Response: Decodable>(data: Data) throws -> Response {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
+        decoder.dateDecodingStrategy = .iso8601
 
         return try decoder.decode(Response.self, from: data)
     }

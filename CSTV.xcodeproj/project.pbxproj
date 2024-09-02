@@ -28,6 +28,7 @@
 		EA9DEA1F2C8578C800A1C44F /* MatchesList+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA1E2C8578C800A1C44F /* MatchesList+Service.swift */; };
 		EA9DEA212C85977E00A1C44F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA202C85977E00A1C44F /* NetworkError.swift */; };
 		EA9DEA232C8597D200A1C44F /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA222C8597D200A1C44F /* ViewState.swift */; };
+		EA9DEA262C85A5D800A1C44F /* matches_upcoming.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9DEA252C85A5D700A1C44F /* matches_upcoming.json */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		EA9DEA1E2C8578C800A1C44F /* MatchesList+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchesList+Service.swift"; sourceTree = "<group>"; };
 		EA9DEA202C85977E00A1C44F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		EA9DEA222C8597D200A1C44F /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		EA9DEA252C85A5D700A1C44F /* matches_upcoming.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matches_upcoming.json; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +151,14 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		EA9DEA242C85A57400A1C44F /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				EA9DEA252C85A5D700A1C44F /* matches_upcoming.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
 		EAF2EF982C7EC760001B60B3 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +194,7 @@
 		EAF2EFAA2C7EC762001B60B3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EA9DEA242C85A57400A1C44F /* JSONs */,
 				EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9BCE842C83F91600F2A434 /* Roboto-Medium.ttf in Resources */,
+				EA9DEA262C85A5D800A1C44F /* matches_upcoming.json in Resources */,
 				EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */,
 				EA9BCE862C83F91600F2A434 /* Roboto-Bold.ttf in Resources */,
 				EA9BCE852C83F91600F2A434 /* Roboto-Regular.ttf in Resources */,
@@ -473,7 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CSTV/Preview\\ Content/JSONs/matches_upcoming.json CSTV/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSTV/Resources/Info.plist;
@@ -504,7 +516,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CSTV/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CSTV/Preview\\ Content/JSONs/matches_upcoming.json CSTV/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSTV/Resources/Info.plist;
