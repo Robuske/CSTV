@@ -23,9 +23,11 @@ struct PlayerDetails: View {
             VStack(alignment: isLeading ? .trailing : .leading) {
                 Text(model.nickname)
                     .font(.robotoBold, size: 14, relativeTo: .body, color: .textPrimary)
+                    .lineLimit(1)
 
                 Text(model.fullName)
                     .font(.robotoRegular, size: 12, relativeTo: .body, color: .textSecondary)
+                    .lineLimit(1)
             }
 
             if isLeading {

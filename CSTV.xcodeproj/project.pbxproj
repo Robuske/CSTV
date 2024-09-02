@@ -38,6 +38,7 @@
 		EA9DEA362C85FB3E00A1C44F /* CustomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */; };
 		EA9DEA3A2C8609B200A1C44F /* MatchDetails+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA392C8609B200A1C44F /* MatchDetails+Service.swift */; };
 		EA9DEA3C2C861FEF00A1C44F /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9DEA3B2C861FEF00A1C44F /* teams.json */; };
+		EA9DEA3E2C86231100A1C44F /* MatchDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA3D2C86231100A1C44F /* MatchDetailsViewModelTests.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -87,6 +88,7 @@
 		EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedShape.swift; sourceTree = "<group>"; };
 		EA9DEA392C8609B200A1C44F /* MatchDetails+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchDetails+Service.swift"; sourceTree = "<group>"; };
 		EA9DEA3B2C861FEF00A1C44F /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		EA9DEA3D2C86231100A1C44F /* MatchDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 			children = (
 				EA8DB9B22C800F5800D80D94 /* MainAssetsTests.swift */,
 				EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */,
+				EA9DEA3D2C86231100A1C44F /* MatchDetailsViewModelTests.swift */,
 			);
 			path = CSTVTests;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA9DEA2A2C85D58F00A1C44F /* MatchesListViewModelTests.swift in Sources */,
+				EA9DEA3E2C86231100A1C44F /* MatchDetailsViewModelTests.swift in Sources */,
 				EA8DB9B32C800F5800D80D94 /* MainAssetsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
