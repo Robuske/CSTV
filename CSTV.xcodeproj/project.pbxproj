@@ -31,6 +31,11 @@
 		EA9DEA262C85A5D800A1C44F /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = EA9DEA252C85A5D700A1C44F /* matches.json */; };
 		EA9DEA282C85AB6900A1C44F /* JSONMockClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */; };
 		EA9DEA2A2C85D58F00A1C44F /* MatchesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */; };
+		EA9DEA2E2C85F0C400A1C44F /* MatchDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA2D2C85F0C400A1C44F /* MatchDetails.swift */; };
+		EA9DEA302C85F0E000A1C44F /* MatchDetails+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA2F2C85F0E000A1C44F /* MatchDetails+ViewModel.swift */; };
+		EA9DEA322C85F99900A1C44F /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */; };
+		EA9DEA342C85FA1F00A1C44F /* PlayerDetails+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */; };
+		EA9DEA362C85FB3E00A1C44F /* CustomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -73,6 +78,11 @@
 		EA9DEA252C85A5D700A1C44F /* matches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
 		EA9DEA272C85AB6900A1C44F /* JSONMockClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMockClient.swift; sourceTree = "<group>"; };
 		EA9DEA292C85D58F00A1C44F /* MatchesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesListViewModelTests.swift; sourceTree = "<group>"; };
+		EA9DEA2D2C85F0C400A1C44F /* MatchDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetails.swift; sourceTree = "<group>"; };
+		EA9DEA2F2C85F0E000A1C44F /* MatchDetails+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchDetails+ViewModel.swift"; sourceTree = "<group>"; };
+		EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
+		EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerDetails+Model.swift"; sourceTree = "<group>"; };
+		EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedShape.swift; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +150,7 @@
 				EA8CE9E32C84128D009748C4 /* MainImages.swift */,
 				EA9DEA222C8597D200A1C44F /* ViewState.swift */,
 				EA9BCE7A2C83E3DA00F2A434 /* PlaceholderImage.swift */,
+				EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -162,6 +173,17 @@
 				EA9DEA252C85A5D700A1C44F /* matches.json */,
 			);
 			path = JSONs;
+			sourceTree = "<group>";
+		};
+		EA9DEA2C2C85F08600A1C44F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				EA9DEA2D2C85F0C400A1C44F /* MatchDetails.swift */,
+				EA9DEA2F2C85F0E000A1C44F /* MatchDetails+ViewModel.swift */,
+				EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */,
+				EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 		EAF2EF982C7EC760001B60B3 = {
@@ -192,6 +214,7 @@
 				EA9C38032C7FBA22004B3CE1 /* SplashView.swift */,
 				EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */,
 				EA9BCE702C83D14A00F2A434 /* List */,
+				EA9DEA2C2C85F08600A1C44F /* Details */,
 			);
 			path = CSTV;
 			sourceTree = "<group>";
@@ -321,6 +344,8 @@
 			files = (
 				EA9DEA192C8557BB00A1C44F /* HTTPClient.swift in Sources */,
 				EA9DEA212C85977E00A1C44F /* NetworkError.swift in Sources */,
+				EA9DEA2E2C85F0C400A1C44F /* MatchDetails.swift in Sources */,
+				EA9DEA362C85FB3E00A1C44F /* CustomRoundedShape.swift in Sources */,
 				EA8DB9B72C8018BE00D80D94 /* MatchRow.swift in Sources */,
 				EA8CE9E22C841281009748C4 /* MainFonts.swift in Sources */,
 				EA9DEA1B2C8576DB00A1C44F /* Endpoint.swift in Sources */,
@@ -329,12 +354,15 @@
 				EA9DEA1F2C8578C800A1C44F /* MatchesList+Service.swift in Sources */,
 				EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */,
 				EA9BCE7F2C83EE6700F2A434 /* MatchRow+Model.swift in Sources */,
+				EA9DEA322C85F99900A1C44F /* PlayerDetails.swift in Sources */,
 				EA9DEA1D2C85774D00A1C44F /* PandaEndpoint.swift in Sources */,
 				EA9BCE7D2C83E65700F2A434 /* MatchTeams.swift in Sources */,
 				EA8DB9B52C8016C400D80D94 /* MatchesList.swift in Sources */,
 				EA9BCE7B2C83E3DA00F2A434 /* PlaceholderImage.swift in Sources */,
 				EA9C38072C7FBCD6004B3CE1 /* MainColors.swift in Sources */,
 				EA8DB9B92C80197A00D80D94 /* MatchesList+ViewModel.swift in Sources */,
+				EA9DEA302C85F0E000A1C44F /* MatchDetails+ViewModel.swift in Sources */,
+				EA9DEA342C85FA1F00A1C44F /* PlayerDetails+Model.swift in Sources */,
 				EA9DEA232C8597D200A1C44F /* ViewState.swift in Sources */,
 				EA9C38042C7FBA22004B3CE1 /* SplashView.swift in Sources */,
 			);

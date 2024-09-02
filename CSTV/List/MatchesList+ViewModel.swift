@@ -73,8 +73,10 @@ extension MatchRow.Model {
             isLive: isRunning,
             timeText: time,
             matchTeams: .init(
+                leftTeamID: leftTeam.id,
                 leftTeamLogo: leftTeam.imageUrl?.withPathToThumb(),
                 leftTeamName: leftTeam.name,
+                rightTeamID: rightTeam.id,
                 rightTeamLogo: rightTeam.imageUrl?.withPathToThumb(),
                 rightTeamName: rightTeam.name
             ),

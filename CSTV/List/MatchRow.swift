@@ -40,7 +40,7 @@ struct MatchRow: View {
                 .font(.robotoBold, size: 8, relativeTo: .caption2, color: .textPrimary)
                 .padding(8)
                 .background(model.isLive ? .liveAccent : .timeAccent)
-                .clipShape(TimeRibbon())
+                .clipShape(CustomRoundedShape(radius: 16, corners: [.topRight, .bottomLeft]))
         }
     }
 
@@ -56,24 +56,6 @@ struct MatchRow: View {
                 .font(.robotoRegular, size: 8, relativeTo: .caption2, color: .textPrimary)
             Spacer(minLength: 8)
         }
-    }
-}
-
-private struct TimeRibbon: Shape {
-    private let radius = 16
-    private let corners: UIRectCorner = [.bottomLeft, .topRight]
-
-    init() {}
-
-    func path(in rect: CGRect) -> Path {
-        Path(
-            UIBezierPath(
-                roundedRect: rect,
-                byRoundingCorners: corners,
-                cornerRadii: .init(width: radius, height: radius)
-            )
-            .cgPath
-        )
     }
 }
 

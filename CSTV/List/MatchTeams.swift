@@ -42,15 +42,19 @@ struct MatchTeams: View {
 
 extension MatchTeams {
     struct Model {
+        let leftTeamID: UInt
         let leftTeamLogo: URL?
         let leftTeamName: String
+        let rightTeamID: UInt
         let rightTeamLogo: URL?
         let rightTeamName: String
 
         static let mock = Self
             .init(
+                leftTeamID: 10,
                 leftTeamLogo: nil,
                 leftTeamName: "Left Team",
+                rightTeamID: 20,
                 rightTeamLogo: nil,
                 rightTeamName: "Right Team"
             )

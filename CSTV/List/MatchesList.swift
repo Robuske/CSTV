@@ -27,6 +27,7 @@ struct MatchesList: View {
                 case let .error(error):
                     // TODO: Improve error handling
                     Text(error.localizedDescription)
+                        .font(.robotoRegular, size: 12, relativeTo: .caption, color: .textPrimary)
                 }
             }
             .navigationTitle("matches_list_title")
