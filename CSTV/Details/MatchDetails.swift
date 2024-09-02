@@ -15,29 +15,30 @@ struct MatchDetails: View {
             MainColors.background.color
                 .ignoresSafeArea()
 
-            VStack(spacing: 20) {
-                MatchTeams(model: viewModel.matchTeams)
+            ScrollView(.vertical) {
+                VStack(spacing: 20) {
+                    MatchTeams(model: viewModel.matchTeams)
 
-                Text(viewModel.time)
-                    .font(.robotoBold, size: 12, relativeTo: .subheadline, color: .textPrimary)
+                    Text(viewModel.time)
+                        .font(.robotoBold, size: 12, relativeTo: .subheadline, color: .textPrimary)
 
-                switch viewModel.state {
-                case .loading:
-                    ProgressView()
-                        .task(viewModel.loadDetails)
+                    switch viewModel.state {
+                    case .loading:
+                        ProgressView()
+                            .task(viewModel.loadDetails)
 
-                case let .loaded(players):
-                    loadedView(players)
+                    case let .loaded(players):
+                        loadedView(players)
 
-                case let .error(error):
-                    // TODO: Improve error handling
-                    Text(error.localizedDescription)
-                        .font(.robotoRegular, size: 12, relativeTo: .caption, color: .textPrimary)
+                    case let .error(error):
+                        // TODO: Improve error handling
+                        Text(error.localizedDescription)
+                            .font(.robotoRegular, size: 12, relativeTo: .caption, color: .textPrimary)
+                    }
+
+                    Spacer()
                 }
-
-                Spacer()
             }
-
         }
         .navigationTitle(viewModel.title)
     }

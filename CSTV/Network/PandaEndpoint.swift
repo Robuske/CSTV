@@ -9,7 +9,7 @@ import Foundation
 
 enum PandaEndpoint {
     case matches
-    case matchDetail(id: String)
+    case teamsDetails(leftID: UInt, rightID: UInt)
 }
 
 extension PandaEndpoint: Endpoint {
@@ -40,8 +40,8 @@ extension PandaEndpoint: Endpoint {
         case .matches:
             return "/csgo/matches"
 
-        case let .matchDetail(id):
-            return "/csgo/matches/\(id)"
+        case .teamsDetails:
+            return "/csgo/teams"
         }
     }
 
@@ -54,8 +54,10 @@ extension PandaEndpoint: Endpoint {
                 .init(name: "sort", value: "-status,begin_at") // Sort in descending order based on status and ascending on begin_at
             ]
 
-        case .matchDetail:
-            return nil
+        case let .teamsDetails(leftID, rightID):
+            return [
+                .init(name: "filter[id]", value: "\(leftID),\(rightID)")
+            ]
         }
     }
 }

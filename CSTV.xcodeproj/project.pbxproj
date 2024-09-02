@@ -36,6 +36,7 @@
 		EA9DEA322C85F99900A1C44F /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */; };
 		EA9DEA342C85FA1F00A1C44F /* PlayerDetails+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */; };
 		EA9DEA362C85FB3E00A1C44F /* CustomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */; };
+		EA9DEA3A2C8609B200A1C44F /* MatchDetails+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9DEA392C8609B200A1C44F /* MatchDetails+Service.swift */; };
 		EAF2EFA52C7EC760001B60B3 /* CSTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */; };
 		EAF2EFA92C7EC762001B60B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */; };
 		EAF2EFAC2C7EC762001B60B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF2EFAB2C7EC762001B60B3 /* Preview Assets.xcassets */; };
@@ -83,6 +84,7 @@
 		EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
 		EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayerDetails+Model.swift"; sourceTree = "<group>"; };
 		EA9DEA352C85FB3E00A1C44F /* CustomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedShape.swift; sourceTree = "<group>"; };
+		EA9DEA392C8609B200A1C44F /* MatchDetails+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchDetails+Service.swift"; sourceTree = "<group>"; };
 		EAF2EFA12C7EC760001B60B3 /* CSTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF2EFA42C7EC760001B60B3 /* CSTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTVApp.swift; sourceTree = "<group>"; };
 		EAF2EFA82C7EC762001B60B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				EA9DEA2D2C85F0C400A1C44F /* MatchDetails.swift */,
 				EA9DEA2F2C85F0E000A1C44F /* MatchDetails+ViewModel.swift */,
+				EA9DEA392C8609B200A1C44F /* MatchDetails+Service.swift */,
 				EA9DEA312C85F99900A1C44F /* PlayerDetails.swift */,
 				EA9DEA332C85FA1F00A1C44F /* PlayerDetails+Model.swift */,
 			);
@@ -362,6 +365,7 @@
 				EA9C38072C7FBCD6004B3CE1 /* MainColors.swift in Sources */,
 				EA8DB9B92C80197A00D80D94 /* MatchesList+ViewModel.swift in Sources */,
 				EA9DEA302C85F0E000A1C44F /* MatchDetails+ViewModel.swift in Sources */,
+				EA9DEA3A2C8609B200A1C44F /* MatchDetails+Service.swift in Sources */,
 				EA9DEA342C85FA1F00A1C44F /* PlayerDetails+Model.swift in Sources */,
 				EA9DEA232C8597D200A1C44F /* ViewState.swift in Sources */,
 				EA9C38042C7FBA22004B3CE1 /* SplashView.swift in Sources */,

@@ -53,7 +53,9 @@ struct PlayerDetails: View {
             url: model.image,
             placeholderShape: RoundedRectangle(cornerRadius: 8)
         )
+        .scaledToFill()
         .frame(width: 48, height: 48)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
         .padding(.trailing, isLeading ? 4 : 16)
         .padding(.leading, isLeading ? 16 : 4)
     }

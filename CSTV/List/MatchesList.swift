@@ -9,9 +9,10 @@ import SwiftUI
 
 struct MatchesList: View {
     @StateObject var viewModel: ViewModel
+    @State private var matchesPath = [MatchRow.Model]()
 
     var body: some View {
-        NavigationView {
+        NavigationStack(path: $matchesPath) {
             ZStack {
                 MainColors.background.color
                     .ignoresSafeArea()
@@ -37,10 +38,19 @@ struct MatchesList: View {
 
     func loadedView(_ matches: [MatchRow.Model]) -> some View {
         List(matches) { match in
-            MatchRow(model: match)
+            Button {
+                matchesPath.append(match)
+
+            } label: {
+                MatchRow(model: match)
+            }
+            .listRowSeparator(.hidden)
+            .listRowBackground(Color.clear)
+        }
+        .navigationDestination(for: MatchRow.Model.self) { match in
+            MatchDetails(viewModel: .init(title: match.description, matchTeams: match.matchTeams, time: match.timeText))
         }
         .refreshable(action: viewModel.loadMatches)
-
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
     }
@@ -69,7 +79,7 @@ private struct CustomizeNavigationBar: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            // Would be better to use `.toolbarColorScheme(.dark, for: .navigationBar)`, but any `.toolbar` modifier breaks the other customizations
+        // Would be better to use `.toolbarColorScheme(.dark, for: .navigationBar)`, but any `.toolbar` modifier breaks the other customizations
             .preferredColorScheme(.dark)
     }
 }

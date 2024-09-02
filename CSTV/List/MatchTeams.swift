@@ -41,7 +41,7 @@ struct MatchTeams: View {
 }
 
 extension MatchTeams {
-    struct Model {
+    struct Model: Hashable {
         let leftTeamID: UInt
         let leftTeamLogo: URL?
         let leftTeamName: String

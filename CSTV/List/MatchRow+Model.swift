@@ -8,7 +8,7 @@
 import Foundation
 
 extension MatchRow {
-    struct Model: Identifiable {
+    struct Model: Identifiable, Hashable {
         let id: UInt
 
         let isLive: Bool
