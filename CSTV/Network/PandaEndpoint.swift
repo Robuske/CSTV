@@ -15,7 +15,7 @@ enum PandaEndpoint {
 extension PandaEndpoint: Endpoint {
     private var accessToken: String {
         #warning("Add the access token")
-        "error"
+        return "error"
     }
 
     var scheme: String {
