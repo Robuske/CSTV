@@ -45,6 +45,7 @@ Some other details:
 - I usually prefer to use _merge commits_ when merging branches, but due to my mistake while using Xcode's Git tools, the branches were effectively _rebased_ on top of main.
 - To run the app properly you'll need to set your _PandaScore API_ token on [PandaEndpoint.accessToken](https://github.com/Robuske/CSTV/blob/dcf34ddb8919522a29a3e5db1763af04a2869106/CSTV/Network/PandaEndpoint.swift#L18).
 - Since the Figma specs didn't include details on how to display errors, I left the error treatment very basic.
+- Sometimes the _API_ does not have a valid `URL` for an image, so the grey placeholder is kept.
 
 You can check the code as it was at the time of delivery with the tag [v1.0.0](https://github.com/Robuske/CSTV/tree/v1.0.0).
 
