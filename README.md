@@ -38,6 +38,7 @@ I implemented the project using _SwiftUI_ with _MVVM_. It fulfils all requiremen
 
 Some other details:
 
+- The app is localized in English and Portuguese and [should show the correct date format for any region](https://github.com/Robuske/CSTV/blob/dcf34ddb8919522a29a3e5db1763af04a2869106/CSTV/List/MatchesList%2BViewModel.swift#L67).
 - As stated above, I had to use Xcode 14.2 due to my equipments limitations, it's possible that there will be some differences when running on a newer version.
 - I would usually use a tool like [SwiftLint](https://github.com/realm/SwiftLint) for keeping the code style consistent, but I decided to not use any dependencies in this project. For the same reason I ended up not using [SwiftGen](https://github.com/SwiftGen/SwiftGen) for generating code related to the resources, instead I wrote my own code to access them and [included Unit Tests](https://github.com/Robuske/CSTV/blob/dcf34ddb8919522a29a3e5db1763af04a2869106/CSTVTests/MainAssetsTests.swift) to avoid problems.
 - Unfortunately the image available on Figma for the splash screen was not a vector and pretty small, so it ends up looking a little weird.
@@ -46,3 +47,12 @@ Some other details:
 - Since the Figma specs didn't include details on how to display errors, I left the error treatment very basic.
 
 You can check the code as it was at the time of delivery with the tag [v1.0.0](https://github.com/Robuske/CSTV/tree/v1.0.0).
+
+### Demo
+
+Below is a video demo of the app running, the language was set to English and region to United States through the scheme.
+
+https://github.com/user-attachments/assets/3edfeaa5-9481-4bb4-a5e9-b351c3810ebd
+
+
+
